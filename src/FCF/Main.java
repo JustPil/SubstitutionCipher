@@ -1,14 +1,11 @@
-package FCF;
+package SC;
 
 import java.io.IOException;
-import java.io.RandomAccessFile;
 import java.util.Scanner;
 
-public class Main
-{
+public class Main {
 
-    public static void main(String[] args) throws IOException
-    {
+    public static void main(String[] args) throws IOException {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter a secret message: ");
         String message = scn.nextLine();
